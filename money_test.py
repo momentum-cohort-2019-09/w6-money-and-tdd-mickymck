@@ -4,7 +4,6 @@ from money import Money, Currency, DifferentCurrencyError
 USD = Currency("United States dollar", "USD", "$")
 BHD = Currency("Bahraini dinar", "BHD", digits=3)
 
-
 def test_create_dollar():
     dollar = Currency("United States dollar", "USD", "$")
     assert dollar.name == "United States dollar"
